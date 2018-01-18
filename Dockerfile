@@ -4,3 +4,4 @@ RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/reposit
 RUN apk --no-cache upgrade
 RUN apk add --no-cache texlive-full
 RUN apk add --no-cache gnuplot
+RUN apk add --no-cache make
